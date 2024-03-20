@@ -185,7 +185,7 @@ public class ExcelImporterMaker : EditorWindow
                     }
 
                     if (cell.CellType != NPOI.SS.UserModel.CellType.Unknown &&
-                        cell.CellType != NPOI.SS.UserModel.CellType.BLANK)
+                        cell.CellType != NPOI.SS.UserModel.CellType.Blank)
                     {
                         parser.isEnable = true;
 
