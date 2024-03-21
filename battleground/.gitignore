@@ -9,9 +9,9 @@
 [Bb]uilds/
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
-Packages/
 
 Packages/*
+Assets/Packages/*
 !Packages/manifest.json
 
 # MemoryCaptures can get excessive in size.
@@ -85,4 +85,3 @@ Thumbs.db
 
 # Crashlytics generated files
 crashlytics-build.properties
-
